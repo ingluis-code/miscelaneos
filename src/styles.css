@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/*Para separar el contenido de la parte del navbar*/
+.main-container{
+    margin-top:40px;
+}
+
+
+/*Este estilo afecta a todos los componentes asi como los demas estilos que se declaren
+ Pero si el componente tiene su propio estilo de css no sera modificado*/
+p { 
+    color: blue;
+    font-size: 20px;
+}
